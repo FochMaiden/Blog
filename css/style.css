@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    text-decoration:  none;
+}
+
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.login-wrapper {
+    max-width: 450px;
+    margin: 10% auto;
+    max-height: 600px;
+    background: #f1fbff;
+    padding: 30px 15px 50px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+.login-wrapper form{
+    text-align: center;
+
+}
+.login-wrapper label{
+    font-size: 35px;
+    color: #7b1940;
+}
+.login-wrapper input{
+    padding: 8px;
+    margin-top: 15px;
+    font-size: 30px;
+    border: 1px solid #d62777;
+}
+.login-wrapper button{
+    font-size: 30px;
+    padding: 13px 130px;
+    margin-top: 35px;
+    background-color: #d62777;
+    color: #d2f0ff;
+    box-sizing: border-box;
+    border: none;
+}
+.login-wrapper button:hover{
+    background-color: #ba2171;
+    color: #e7f8ff;
+}
+.login {
+    float: right;
+    color: #7b1940;
+    margin-right: 2%;
+    margin-top: 2%;
+}
+
+header h1 {
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 2%;
+}
+header h3 {
+    text-align: center;
+    margin-top: 0;
+    font-size: 80%;
+    margin-bottom: 4%;
+}
+
+.menu {
+    text-align: center;
+    list-style-type: none;
+    padding: 0;
+    background-color: #ba2363;
+    margin: 0;
+}
+
+.menu li {
+    display: inline-block;
+    padding: 20px;
+}
+
+.menu a {
+    color: #f1fbff;
+}
+.menu a:hover{
+    color: rgb(182, 235, 255);
+}
+
+.img-responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+.blogpost-preview {
+    float: left;
+
+    width: 33.33333333%;
+}
+
+.blogpost-preview img {
+    margin: 50px;
+}
+
+.blogpost{
+    float: left;
+    width: 80%;
+}
+.blogpost-text{
+    margin: 5px;
+}
+
+.history {
+    float: right;
+    width: 20%;
+    padding: 1% 0;
+
+}
+
+.history h3 {
+    text-align: center;
+}
+
+.history ul {
+    list-style-type: none;
+    padding: 0;
+}
+.history li{
+    border-top: 1px solid #cfd8dc;
+    padding: 15px 5px;
+}
+.history a{
+    text-decoration: none;
+    color: #ba2363;
+}
+
+
